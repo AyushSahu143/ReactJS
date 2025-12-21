@@ -1,0 +1,5 @@
+Here are the Random Learnings 
+
+1. First letter of Name of components(eventually functions) must be uppercase
+2. must use extension .jsx instead of .js while using vite bundler
+3. Wrap multiple tags in  <></> (Fragments) because react component can return only single element or tag
