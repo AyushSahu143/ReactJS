@@ -17,7 +17,7 @@ function customRender(reactElement, mainContainer) {
     domElement.innerHTML = reactElement.child    
     for (let prop in reactElement.props) {
         if(prop === 'child') continue;
-        mainContainer.setAttribute(prop, reactElement.props[prop] )
+        domElement.setAttribute(prop, reactElement.props[prop])
     }
       mainContainer.appendChild(domElement)
 }
