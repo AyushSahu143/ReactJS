@@ -14,15 +14,31 @@ Instead of collecting tutorials, this repo is about:
 
 ```text
 React/
-├── 01vitereact/
-│   ├── React + Vite setup
-│   ├── Core React concepts (JSX, components, props, state)
-│   ├── Hooks and data flow experiments
-│   └── Mini projects and feature implementations
+├── 01-react-basics/
+│   ├── vite-react-setup/
+│   ├── jsx-and-components/
+│   ├── props-and-state/
+│   ├── hooks-useState/
+│   └── mini-experiments/
 │
-├── customReact/
-│   ├── Custom React-like rendering logic
-│   ├── Understanding JSX → element → DOM flow
-│   └── Experiments inspired by React internals
+├── 02-react-internals/
+│   ├── custom-react-renderer/
+│   ├── element-to-dom-flow/
+│   └── notes.md
+│
+├── 03-react-tailwind/
+│   ├── README.md
+│   ├── package.json
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   ├── index.html
+│   └── src/
+│       ├── App.jsx
+│       ├── main.jsx
+│       ├── index.css
+│       ├── components/
+│       │   ├── Card.jsx
+│       │   └── Button.jsx   # future-proofing
+│       └── assets/
 │
 └── README.md
